@@ -1,8 +1,6 @@
-import { createPinia, defineStore } from "pinia";
+import { defineStore } from "pinia";
 
 import { Task, TaskStatus } from "../interfaces/Task.interface";
-
-const pinia = createPinia();
 
 export const useTaskStore = defineStore({
   id: "task",
