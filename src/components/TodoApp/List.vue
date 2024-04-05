@@ -107,24 +107,8 @@ const shareTaskViaWhatsApp = (message: string) => {
 </template>
 <style scoped>
 input[type="checkbox"] {
-  width: 14px !important;
-  height: 14px !important;
-  margin: 5px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  outline: 1px solid #98a1ae;
-  box-shadow: none;
-  font-size: 0.8em;
-  text-align: center;
-  line-height: 1em;
-  background: white;
-}
-
-input[type="checkbox"]:checked:after {
-  content: "✔";
-  color: white !important;
-  background: #98a1ae;
+  width: 18px !important;
+  height: 18px !important;
+  accent-color: #98a1ae;
 }
 </style>

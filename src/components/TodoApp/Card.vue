@@ -10,7 +10,7 @@
       </div>
 
       <div
-        class="flex flex-col gap-3 px-5 py-3 h-[300px] md:h-[500px] overflow-y-auto"
+        class="flex flex-col gap-3 px-5 py-3 h-[300px] md:h-[450px] overflow-y-auto"
       >
         <slot name="body"></slot>
       </div>
